@@ -1,0 +1,59 @@
+{
+  "number": 4,
+  "name": "Continuity",
+  "version": 0.1,
+  "questions": [
+    {
+      "number": 1,
+      "name": "Incompressible flows",
+      "statement": "Which of the following sets of equations represent (s) possible three-dimensional incompressible flow cases?",
+      "type": "MCQ",
+      "options": [
+        "u = 2y^2 + 2xz, v = −2yz + 6x^2 yz, w = 3x^2 z^2 + x^3 y^4",
+        "u = xyzt, v = −xyzt^2, w = z^2 (xt^2 − yt)",
+        "u = x^2 + 2y + z^2, v = x − 2y + z, w = −2xz + y^2 + 2z",
+        "ur = −1/r, uθ = 0, uz = 0",
+        "ur = 0, uθ = 2/r, uz = 0",
+        "ur = −5 cos(θ)/r^2, uθ = −5 sin(θ)/r^2, uz = 0",
+        "Straining flow given in Sheet #3, Q3.2, i.e. u = 1 + αx, v = −αy"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Steady incompressible flow",
+      "statement": "The x component of velocity in a steady incompressible flow field in the xy plane is u = A exp(x/b) cos(y/b), where A and b are two constants. Find the y component of velocity for this flow field.",
+      "type": "Field",
+      "fieldText": "Enter equation here"
+    },
+    {
+      "number": 3,
+      "name": "Steady incompressible boundary layer",
+      "statement": "A useful approximation for the x component of velocity in an incompressible laminar boundary layer is a sinusoidal variation from u = 0 at the wall (y = 0) to the free stream velocity, U, at the edge of theboundary layer (y = δ). The equation for the profile is u = U sin[πy/(2δ)], where δ = c√x and c is aconstant. Sketch the boundary layer in the xy plane. Plot u/U and v/U versus y/δ",
+      "type": "Show"
+    },
+    {
+      "number": 4,
+      "name": "Gas expanding in a cylinder",
+      "statement": "A gas-filled pneumatic strut in an automobile suspension system behaves like a piston-cylinder apparatus. At one instant when the piston is L = 0.15 m away from the closed end of the cylinder, the gas density is uniform at ρ = 18 kg/m3 and the piston begins to move away from the closed end at U = 12 m/s. The gas velocity is one-dimensional and proportional to distance from the closed end; it varies linearly from zero at the end to u = U at the piston. The density field at any instant in time is uniform in space.",
+      "type": "Section",
+      "sections": [
+        "Obtain an expression for the average density as a function of time",
+        "Evaluate the rate of change of gas density at t = 0",
+        "Graph density as a function of time."
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Simplifying the Euler Equations",
+      "statement": "[Not actually part of this sheet, but here as an example] Simplify the Euler equations in the following senarios,",
+      "type": "Section",
+      "sections": [
+        "Hydrostatic (u = 0)",
+        "No body forces.",
+        "Steady",
+        "One Dimentional, ie all fileds have only one component, including velociy and pressure.",
+        "Constant and uniform density"
+      ]
+    }
+  ]
+}
