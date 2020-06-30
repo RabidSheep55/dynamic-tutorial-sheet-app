@@ -9,10 +9,11 @@
 </template>
 
 <script>
-// Import components
+// Import structure components
 import Header from './components/layout/Header'
 import Tabs from './components/Tabs'
 
+// Import question "template" components
 import Field from './components/questions/Field'
 import MCQ from './components/questions/MCQ'
 import Section from './components/questions/Section'
